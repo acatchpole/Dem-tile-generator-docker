@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "map-tiles"
+version = "0.1.0"
+description = ""
+authors = ["Brett Edwards <brett.1.edwards@gov.bc.ca>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+rasterio = "^1.4.2"
+rio-rgbify = "^0.4.0"
+tqdm = "^4.67.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
